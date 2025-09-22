@@ -20,7 +20,7 @@
 1. **Clone the repository:**
 
 ```bash
-git clone <repository_url>
+git clone https://github.com/Praneethguduru/FaceRecognition
 cd Facial-Recognition-System
 ```
 
@@ -49,17 +49,7 @@ python recognize_faces.py
 
 3. The system will use your webcam to detect and recognize faces, marking attendance automatically.
 
-## Project Structure
 
-```
-Facial-Recognition-System/
-├── detect_faces.py       # Real-time face detection
-├── recognize_faces.py    # Face recognition and attendance
-├── haarcascades/         # Pre-trained Haar Cascade models
-├── dataset/              # Folder to store known faces
-├── requirements.txt      # Python dependencies
-└── README.md
-```
 
 ## Future Improvements
 
@@ -67,6 +57,3 @@ Facial-Recognition-System/
 * Add support for multiple cameras.
 * Improve recognition accuracy using deep learning models like FaceNet or Dlib.
 
-## License
-
-This project is licensed under the MIT License – see the [LICENSE](LICENSE) file for details.
