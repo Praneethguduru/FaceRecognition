@@ -37,7 +37,7 @@ pip install -r requirements.txt
 1. Add faces to the Images Folder
 
 
-2. Change the AddDataToDatabase.py according to the the format
+2. Update or add the student details to AddDataToDatabase.py according to the the format
 ```bash
 data = {
     "(roll number)":
