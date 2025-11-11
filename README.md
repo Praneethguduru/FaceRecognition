@@ -69,7 +69,6 @@ python main.py
 
 ## Future Improvements
 
-* Integrate with a database to store attendance records.
 * Add support for multiple cameras.
 * Improve recognition accuracy.
 
