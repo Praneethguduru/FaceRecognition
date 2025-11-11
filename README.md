@@ -34,17 +34,33 @@ pip install -r requirements.txt
 ```
 
 ## Usage
+1. Add faces to the Images Folder
 
-1. Run the face detection script:
+
+2. Change the AddDataToDatabase.py according to the the format
+```bash
+data = {
+    "(roll number)":
+        {
+            "name": "XYZ",
+            "major": "XYZ",
+            "starting_year": IIII,
+            "total_attendance": 0,
+            "standing": "X",
+            "year": X,
+        }
+```
+
+4. Run the encoder script:
 
 ```bash
-python detect_faces.py
+python EncodeGenerator.py
 ```
 
 2. For recognition and attendance, run:
 
 ```bash
-python recognize_faces.py
+python main.py
 ```
 
 3. The system will use your webcam to detect and recognize faces, marking attendance automatically.
@@ -55,5 +71,5 @@ python recognize_faces.py
 
 * Integrate with a database to store attendance records.
 * Add support for multiple cameras.
-* Improve recognition accuracy using deep learning models like FaceNet or Dlib.
+* Improve recognition accuracy.
 
